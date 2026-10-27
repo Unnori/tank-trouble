@@ -4,6 +4,14 @@
 
 Local multiplayer tank combat game with procedural maze generation, bullet ricochet, and AI opponent.
 
+> **这个仓库是二创。** 上游是 [AbyssWhalen/tank-trouble](https://github.com/AbyssWhalen/tank-trouble)（MIT），
+> 原项目版权归 AbyssWhalen 所有。本仓库在此基础上接入 Coopanion 桌宠：对局里发生值得说的
+> 时刻会送给桌宠 Coo，由它在气泡里开口。改动部分同样以 MIT 发布。
+>
+> **This is a fork.** Upstream is [AbyssWhalen/tank-trouble](https://github.com/AbyssWhalen/tank-trouble)
+> (MIT), copyright AbyssWhalen. Changes here wire the game into Coopanion's desktop pet, so the pet
+> can talk during a match. The changes are MIT too.
+
 ---
 
 ## 游戏特色 | Features
@@ -174,6 +182,9 @@ MIT License
 
 Inspired by the classic Flash game [Tank Trouble](https://tanktrouble.com/).
 
-代码与素材完全原创。
+上游代码与素材由 [AbyssWhalen](https://github.com/AbyssWhalen) 原创，见
+[AbyssWhalen/tank-trouble](https://github.com/AbyssWhalen/tank-trouble)。本仓库只在其上做二创。
 
-All code and assets are original.
+Upstream code and assets are original work by [AbyssWhalen](https://github.com/AbyssWhalen);
+see [AbyssWhalen/tank-trouble](https://github.com/AbyssWhalen/tank-trouble). This repository
+only adds to it.

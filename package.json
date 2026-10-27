@@ -1,7 +1,7 @@
 {
-  "name": "tank-trouble",
-  "version": "0.6.0",
-  "description": "本地多人 + 人机对战的坦克回廊对战小游戏",
+  "name": "tank-trouble-coopanion",
+  "version": "0.7.0",
+  "description": "坦克回廊的 Coopanion 二创：对局里的关键节点会送给桌宠 Coo，由它开口说话",
   "main": "electron/main.cjs",
   "type": "module",
   "scripts": {
@@ -10,14 +10,25 @@
     "arena": "node scripts/arena.mjs",
     "dist": "electron-builder --win"
   },
-  "author": "Whalen",
+  "author": "Whalen (AbyssWhalen) — 上游原作；本仓库二创见 README",
+  "contributors": [
+    "Unnori"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Unnori/tank-trouble.git"
+  },
+  "homepage": "https://github.com/Unnori/tank-trouble#readme",
+  "bugs": {
+    "url": "https://github.com/Unnori/tank-trouble/issues"
+  },
   "devDependencies": {
     "electron": "^33.0.0",
     "electron-builder": "^25.0.0"
   },
   "build": {
-    "appId": "com.whalen.tankcorridor",
+    "appId": "com.unnori.tankcorridor",
     "productName": "TankCorridor",
     "directories": {
       "output": "build"
